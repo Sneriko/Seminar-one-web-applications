@@ -1,0 +1,43 @@
+.navigationbar {
+    background-color: #333;
+    overflow: hidden;
+	opacity: 0.5;
+}
+
+.navigationbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header {
+  font-family: "Serif";
+  font-size: 30px;
+  padding: 10px;
+}
+
+.foodimage {
+	max-width: 50%;
+}
+
+p {
+  background-color: grey;
+  padding: 20px;
+
+h2 {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  padding: 20px;
+}
+
+.method {
+  margin-right: 20%;
+
+}
+
+.method li {
+  padding: 5px;
+}
