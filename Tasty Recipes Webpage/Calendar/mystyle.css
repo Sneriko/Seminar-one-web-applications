@@ -30,11 +30,18 @@
 
 .calendar > div {
   background-color: white;
-  text-align: top;
   padding: 0;
   height: 100px;
-  width: con;
   font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+  .calendar > div {
+    background-color: white;
+    padding: 0;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
 .weekdays > div {

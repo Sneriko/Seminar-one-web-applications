@@ -23,9 +23,16 @@
 	max-width: 50%;
 }
 
+@media screen and (max-width: 768px) {
+    .foodimage{
+        max-width: 100%;
+    }
+}
+
 p {
   background-color: grey;
   padding: 20px;
+}
 
 h2 {
   font-family: "Times New Roman";
@@ -33,11 +40,11 @@ h2 {
   padding: 20px;
 }
 
-.method {
+.method_list {
   margin-right: 20%;
 
 }
 
-.method li {
+.method_list li {
   padding: 5px;
 }
